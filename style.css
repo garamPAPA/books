@@ -1,0 +1,589 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30vw;
+   list-style: none;
+   display: flex;
+}
+.logo li{
+    margin: 3px;
+    color: rgb(5, 5, 141);
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: rgb(63, 54, 54);
+}
+ .links li a:hover{
+   color: rgb(255, 157, 0);
+}
+.icons{
+    width: 20vw;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+.icons li{
+    margin: 10px;
+    font-size: 20px;
+}
+/* ....................icons.................... */
+.close{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(241, 237, 237);
+}
+.close input{
+    position: relative;
+    top: 80px;
+    height: 30px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.close-icon{
+   position: relative;
+   top: 20px;
+   display: flex;
+   font-size: 20px;
+}
+/* ................CONTACT............... */
+.contact{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(241, 237, 237);
+}
+.contact-in{
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color:white;
+}
+.contact-in input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(213, 220, 226);
+}
+.contact-in p{
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-in p a{
+    text-decoration: none;
+}
+.contact-in button{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+.contact-close{
+    position: relative;
+    top: 20px;
+    display: flex;
+    font-size: 20px;
+ }
+ /* .............contact................ */ 
+ .E-book{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 80%;
+ }
+ .display{
+    display: flex;
+    justify-content: center;
+ }
+ .note{
+    width: 40%;
+ }
+ .book{
+    width: 50%;
+    height: 400px;
+    background-color: antiquewhite;
+ }
+ .note h1{
+    font-size: 40px;
+ }
+ .note p{
+    margin-top:20px ;
+ }
+ .note button{
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(58, 58, 200);
+    border: none;
+    margin-top: 30px;
+ }
+ /* ........................ */
+ .setting{
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+ }
+ .shipping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .support{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .shipping i{
+    color:  rgb(58, 58, 200);
+    font-size: 40px;
+    margin: 10px;
+ }
+ .payment i{
+    color: rgb(58, 58, 200);
+    font-size: 40px;
+    margin: 10px;
+ }
+ .support i{
+    color: rgb(58, 58, 200);
+    font-size: 40px;
+    margin: 10px;
+ }
+ /* ...................................... */
+ .featured-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 80%;
+ }
+ .featured-books{
+    margin: 40px;
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+ }
+ /* .................................... */
+ .discount-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 80%;
+ }
+ .discount-books{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-image: url(book1.jpg);
+    background-size: cover;
+ }
+ .discount-text{
+    width: 40%;
+ }
+ .discount-text p{
+    margin-top: 20px;
+ }
+ .discount-text button{
+    padding: 10px;
+    width: 110px;
+    background-color: rgb(75, 60, 189);
+    color: white;
+    border: none;
+    margin-top: 30px;
+ }
+ /* .................new book...................... */
+ .new-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+ }
+ .new-book-first{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+ }
+ .new-book-second{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+ }
+ /* ..............poster.................... */
+ .poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(243, 142, 74);
+ }
+ .poster h1{
+    color: white;
+    font-size: 25px;
+    width: 250px;
+    text-align: center;
+ }
+ .poster input{
+    padding: 10px;
+    width: 250px;
+    margin-top: 20px;
+ }
+.poster button{
+    padding: 10px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: rgb(70, 70, 227);
+}
+/* ..............customer opinions................ */
+ .customer-opinions{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 80%;
+   height:80vh;
+ }
+ .customer-opinions h1{
+   font-size: 30px;
+ }
+ .customer-opinions-box{
+   width: 100%;
+   height: 250px;
+   background-color: azure;
+   margin-top: 20px;
+ }
+ /* ...................footer.............. */
+ .text-footer{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   height: 50vh;
+ }
+ .text-logo{
+     display: flex;
+
+ }
+ .text-logo i{
+   color: blue;
+   margin-right: 5px;
+   margin-bottom: 10px;
+ }
+ .text-logo p{
+   color: blue;
+   margin-bottom: 10px;
+ }
+ .E-book-text{
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+ }
+ /* ..............about.................... */
+ .about-text{
+   display: flex;
+   flex-direction: column;
+ }
+ .about-text h3{
+   margin-bottom: 10px;
+ }
+ .about-text a{
+   text-decoration: none;
+   color: rgb(12, 4, 4);
+   margin-bottom: 5px;
+ }
+ /* ........company.............. */
+ .Company-text{
+   display: flex;
+   flex-direction: column;
+ }
+ .Company-text h3{
+   margin-bottom: 10px;
+ }
+ .Company-text a{
+   text-decoration: none;
+   color: rgb(12, 4, 4);
+   margin-bottom: 5px;
+ }
+
+ /* ..........contact-text.................. */
+ .contact-text{
+   display: flex;
+   flex-direction: column;
+ }
+ .contact-text h3{
+   margin-bottom: 10px;
+ }
+ .contact-text a{
+   text-decoration: none;
+   color: rgb(12, 4, 4);
+   margin-top: 5px;
+ }
+ /* ...............footer .icons........... */
+ .footer-icon{
+   position: sticky;
+   bottom: 0px;
+   display: none;
+   height: 50px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+ }
+ .footer-icon a i{
+   font-size: 20px;
+   padding: 20px;
+   color: rgba(0, 0, 0, 0.833);
+ }
+ /* ............................media................................ */
+ @media (max-width:1400px) {
+   /* ..............discount-box.............. */
+   .discount-box{
+      flex-direction:column-reverse;
+      justify-content: center;
+   }
+   .discount-books{
+      margin-top: 20px;
+      height: 300px;
+      width: 300px;
+   }
+   .discount-text{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .discount-text h1{
+      text-align: center;
+   }
+   .discount-text p{
+      text-align: center;
+   }
+ }
+ @media (max-width:1100px) {
+   /* ..........footer-icon.......... */
+   .footer-icon{
+      display: flex;
+   }
+   /* ..........NAV MEDIA.......... */
+
+   .links{
+       display: none;
+   }
+   .icons{
+       width: 50%;
+   }
+   .logo{
+       width: 50%;
+   }
+   /* ...........E-book............ */
+   .E-book{
+      justify-content: center;
+      flex-direction: column;
+   }
+   .book{
+      margin-top: 20px;
+      width: 100%;
+   }
+   .note{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .note h1{
+      text-align: center;
+   }
+   .note p{
+      text-align: center;
+   }
+   /* .............setting............. */
+   .setting{
+      height: 50vh;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   /* .........navbar......... */
+   .note h1{
+      font-size: 20px;
+   }
+   .note p{
+      font-size: 10px;
+   }
+   /* ...........footer............... */
+   .E-book-text p{
+      font-size: 10px;
+   }
+   .text-logo p{
+      font-size: 15px;
+   }
+   .text-logo i{
+      font-size: 15px;
+   }
+   .about-text{
+      font-size: 15px;
+   }
+   .about-text a{
+      font-size: 10px;
+   }
+   .Company-text{
+      font-size: 15px;
+   }
+   .Company-text a{
+      font-size: 10px;
+   }
+   .contact-text{
+      font-size: 15px;
+   }
+   .contact-text a{
+      font-size: 10px;
+   }
+   .contact-text p{
+       font-size: 10px;
+   }
+    /* ..............discount-box......... */
+    .discount-text h1{
+      font-size: 20px;
+    }
+    /* ............featured-box................. */
+    .featured-box h1{
+      font-size: 20px;
+    }
+    /* ...........new book.............. */
+    .new-book h1{
+      font-size: 20px;
+    }
+    /* .............customer-opinions.......... */
+    .customer-opinions h1{
+      font-size: 20px;
+    }
+    /* ...............book........... */
+    .book{
+      height: 40vh;
+    }
+}
+@media (max-width:650px) {
+   .discount-books{
+      height: 250px;
+      width: 250px;
+   }
+   .text-footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 80vh;
+   }
+}
+@media (max-width:600px) {
+   .close input{
+       width: 80%;
+   }
+   .contact-in{
+       width: 80%;
+   }
+   .contact-in input{
+       width: 80%;
+   }
+   .contact-in button{
+       width: 80%;
+   }
+   .contact-in a{
+       width: 80%;
+       font-size: 12px;
+   }
+}
+@media (max-width:500px) {
+   /* .............discount-text........... */
+   .discount-text{
+      width: 80%;
+   }
+   .note{
+      width: 80%;
+   }
+   /* ............poster.......... */
+   .poster h1{
+      font-size: 20px;
+   }
+   .poster input{
+      width: 80%;
+   }
+   .poster button{
+      width: 80%;
+   }
+   
+}
+@media (max-width:300px) {
+   .discount-books{
+      height: 200px;
+      width: 200px;
+   }
+   .footer-icon{
+      justify-content: space-between;
+   }
+}
+/* @media (max-height:750px) {
+   .book{
+      height: 200px;
+   }
+   .discount-books{
+      height: 200px;
+      width: 200px;
+   }
+} */
