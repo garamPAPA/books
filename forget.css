@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.forget{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 40px;
+    width:300px;
+    background-color: rgb(230, 224, 224);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.reset button{
+    height: 40px;
+    width: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.forget-box{
+    height: 370px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+}
+.forget a i{
+    position: relative;
+    top: 40px;
+    display: flex;
+    font-size: 20px;
+}
+.forget a{
+    text-decoration: none;
+}
